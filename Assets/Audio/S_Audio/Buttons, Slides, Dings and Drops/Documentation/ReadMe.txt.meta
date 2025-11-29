@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: 3f9215ea0144899419cfbc0957140d3f
-NativeFormatImporter:
+guid: 8bbc340bdf027402cb28609ab9c43409
+TextScriptImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 
@@ -11,5 +10,5 @@ AssetOrigin:
   productId: 325160
   packageName: Buttons, Slides, Dings and Drops
   packageVersion: 1.0
-  assetPath: Assets/DefaultVolumeProfile.asset
+  assetPath: Assets/Buttons, Slides, Dings and Drops/Documentation/ReadMe.txt
   uploadId: 770899
