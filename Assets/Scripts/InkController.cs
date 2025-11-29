@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class EraserDamage : MonoBehaviour
+public class InkController: MonoBehaviour
 {
     public PlayerInk playerInk;
     public int damage = 1;
@@ -8,7 +8,7 @@ public class EraserDamage : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            playerInk.TakeDamage(damage);
+            playerInk.ObtainInk(damage);
         }
     }
 }

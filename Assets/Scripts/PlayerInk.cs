@@ -4,21 +4,18 @@ using UnityEngine;
 public class PlayerInk : MonoBehaviour
 {
     public int ink;
-    public int maxInk = 1;
+    public int maxInk = 3;
 
     private void Start()
     {
         ink = maxInk; // Set current ink to full
     }
-
-    public void TakeDamage(int amount)
+    public void ObtainInk(int amount)
     {
-        // amount = ink; // If we want a one shot but have more HP
-        ink -= amount;
-
-        if (ink <= 0)
+        ink += amount;
+        if (amount > maxInk)
         {
-            Destroy(gameObject); // Temporary event
+            ink -= amount;
         }
     }
 }
