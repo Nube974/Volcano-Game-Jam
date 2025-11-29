@@ -1,18 +1,26 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerSizeChange : MonoBehaviour
 {
     [SerializeField] GameObject body;
 
     private Vector3 bigMode = new Vector3(4f,4f,1f);
-    private Vector3 ultimateMode = new Vector3(6f, 6f,1f);
+    private Vector3 ultimateMode = new Vector3(7f, 7f,1f);
     private Vector3 smallMode = new Vector3(1f,1f,1f);
     private Vector3 normalMode = new Vector3(2f,2f,1f);
     private Coroutine UltimateModeAction;
 
+    [SerializeField] SpriteRenderer sprite;
+
+    [SerializeField] PlayerInk ultimateJauge;
+    [SerializeField] List<Material> aura;
+    [SerializeField] List<Material> normalMat;
+
     private bool isUltimateState = false;
+
 
     public enum PlayerDirection
     {
@@ -33,7 +41,7 @@ public class PlayerSizeChange : MonoBehaviour
 
     public void OnBigMode(InputAction.CallbackContext context)
     {
-        if (context.started || !isUltimateState)
+        if (context.started && !isUltimateState)
         {
              body.transform.localScale = bigMode;
         }
@@ -41,7 +49,7 @@ public class PlayerSizeChange : MonoBehaviour
 
     public void OnNormalMode(InputAction.CallbackContext context)
     {
-        if (context.started || !isUltimateState)
+        if (context.started && !isUltimateState)
         {
             body.transform.localScale = normalMode;
         }
@@ -49,7 +57,7 @@ public class PlayerSizeChange : MonoBehaviour
 
     public void OnShrinkMode(InputAction.CallbackContext context)
     {
-        if (context.started || !isUltimateState)
+        if (context.started && !isUltimateState)
         {
             body.transform.localScale = smallMode;
 
@@ -58,9 +66,11 @@ public class PlayerSizeChange : MonoBehaviour
 
     public void OnUltimateMode(InputAction.CallbackContext context)
     {
-        if (context.started && !isUltimateState)
+        if (context.started && !isUltimateState && ultimateJauge.CanUltimate())
         {
             body.transform.localScale = ultimateMode;
+            ultimateJauge.UseInk(3);
+            sprite.SetMaterials(aura);
             StartCoroutine(WaitForUltimateAction());
         }
     }
@@ -68,8 +78,10 @@ public class PlayerSizeChange : MonoBehaviour
     IEnumerator WaitForUltimateAction()
     {
         isUltimateState = true;
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(100f);
+        sprite.SetMaterials(normalMat);
         isUltimateState = false;
+        body.transform.localScale = normalMode;
     }
 
 }

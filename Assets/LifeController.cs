@@ -3,8 +3,7 @@ using System.Collections;
 
 public class LifeController : MonoBehaviour
 {
-    public float maxHp = 3;
-    public float currentHp = 3;
+
 
     public float speedHurt = 5f;
     private bool isInvincible = false;
@@ -14,22 +13,14 @@ public class LifeController : MonoBehaviour
     [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private Player_Autorun playerRun;
 
-    public void Start()
-    {
-        currentHp = maxHp;
-    }
 
-    public void HPChange(float dmg)
+    public void SpeedChange(float dmg)
     {
+        speedHurt = dmg;
+
         if (!isInvincible)
         {
             //currentHp -= dmg;
-           
-            if (currentHp <= 0)
-            {
-                PlayerDeath();
-                return;
-            }
 
             if (dmg > 0)
                 StartCoroutine(PlayerHurt());
@@ -53,11 +44,6 @@ public class LifeController : MonoBehaviour
     private void FlashBody(bool bo)
     {
         sprite.enabled = bo;
-    }
-
-    private void PlayerDeath()
-    {
-        currentHp = maxHp;
     }
 
     IEnumerator WaitForIFrame()
