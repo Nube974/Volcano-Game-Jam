@@ -1,14 +1,13 @@
 using UnityEngine;
 
-public class pop_obstacle : MonoBehaviour
+public class AddInk : MonoBehaviour
 {
-    [SerializeField] HorizontalBullet obstacle;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("FullPlayer"))
         {
-            obstacle.IsActivated();
+            collision.GetComponent<PlayerInk>().ObtainInk(1);
+            Destroy(gameObject);
         }
     }
 }

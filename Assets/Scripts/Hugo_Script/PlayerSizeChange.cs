@@ -8,7 +8,7 @@ public class PlayerSizeChange : MonoBehaviour
     [SerializeField] GameObject body;
 
     private Vector3 bigMode = new Vector3(4f,4f,1f);
-    private Vector3 ultimateMode = new Vector3(7f, 7f,1f);
+    private Vector3 ultimateMode = new Vector3(6f, 6f,1f);
     private Vector3 smallMode = new Vector3(1f,1f,1f);
     private Vector3 normalMode = new Vector3(2f,2f,1f);
     private Coroutine UltimateModeAction;
