@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/LevelDesignTest.unity
     guid: 8baaacd6c50f2434289b7fc3d44990dd
   - enabled: 0
-    path: Assets/Scenes/Credits.unity
+    path: Assets/Scenes/S_Scenes/Credits.unity
     guid: a14355f67b5601a41b4c0806447a1070
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
