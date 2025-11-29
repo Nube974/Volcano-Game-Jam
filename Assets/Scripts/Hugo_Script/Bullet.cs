@@ -7,7 +7,7 @@ public class HorizontalBullet : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.transform.parent.GetComponent<LifeController>().HPChange(dmg);
+            collision.transform.parent.transform.parent.GetComponent<LifeController>().HPChange(dmg);
         }
     }
 }

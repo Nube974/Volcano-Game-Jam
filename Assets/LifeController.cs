@@ -11,7 +11,7 @@ public class LifeController : MonoBehaviour
 
     private float iFrameTimer = 0.5f;
 
-    [SerializeField] private SpriteRenderer[] sprites;
+    [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private Player_Autorun playerRun;
 
     public void Start()
@@ -52,8 +52,7 @@ public class LifeController : MonoBehaviour
 
     private void FlashBody(bool bo)
     {
-        sprites[0].enabled = bo;
-        sprites[1].enabled = bo;
+        sprite.enabled = bo;
     }
 
     private void PlayerDeath()

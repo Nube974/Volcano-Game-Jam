@@ -7,7 +7,7 @@ public class Player_Autorun : MonoBehaviour
     private float currentSpeed = 10;
     private float normalSpeed = 10;
 
-    [SerializeField] PlayerSplit split;
+    [SerializeField] PlayerSizeChange split;
 
     public void SetSpeed(float _speed){ currentSpeed = _speed;}
     public float GetNormalSpeed(){return normalSpeed;}
@@ -18,11 +18,11 @@ public class Player_Autorun : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (split.direction == PlayerSplit.PlayerDirection.Horizontal)
+        if (split.direction == PlayerSizeChange.PlayerDirection.Horizontal)
         {
             rb.linearVelocityX = 1 * currentSpeed;
             rb.linearVelocityY = 0;
-        } else if (split.direction == PlayerSplit.PlayerDirection.Vertical)
+        } else if (split.direction == PlayerSizeChange.PlayerDirection.Vertical)
         {
             rb.linearVelocityY = 1 * currentSpeed;
             rb.linearVelocityX = 0;
