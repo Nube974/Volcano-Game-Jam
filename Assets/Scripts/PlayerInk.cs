@@ -1,24 +1,101 @@
 using UnityEditor.UIElements;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerInk : MonoBehaviour
 {
-    public int ink;
-    public int maxInk = 1;
+    public Slider slider;
 
+    public int ink;
+    public int minInk = 0;
+    public int maxInk = 3;
+    
     private void Start()
     {
-        ink = maxInk; // Set current ink to full
+        SetMinMaxInk(minInk, maxInk);
     }
 
-    public void TakeDamage(int amount)
-    {
-        // amount = ink; // If we want a one shot but have more HP
-        ink -= amount;
+    //
 
-        if (ink <= 0)
+    public void SetMinMaxInk(int minInk, int maxInk)
+    {
+        slider.minValue = minInk;
+        slider.maxValue = maxInk;
+        SetInk(ink);
+    }
+    public void SetInk(int ink)
+    {
+        slider.value = ink;
+    }
+    
+    //
+
+    public void ObtainInk(int amount)
+    {
+        ink += amount;
+        Debug.Log($"You have this much ink: {ink}");
+        SetInk(ink);
+        if (ink > maxInk)
         {
-            Destroy(gameObject); // Temporary event
+            ink = maxInk;
+            SetInk(ink);
+            Debug.Log($"You have this much ink: {ink}");
+        }
+    }
+    public void UseInk(int amount)
+    {
+        ink -= amount;
+        Debug.Log($"You have this much ink: {ink}");
+        slider.value = ink;
+        SetInk(ink);
+        if (ink < minInk)
+        {
+            ink = minInk;
+            SetInk(ink);
+            Debug.Log($"You have this much ink: {ink}");
+        }
+    }
+
+    //
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Ink")
+        {
+            ObtainInk(1);
+        }
+    }
+    public void OnUseInk(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)
+        {
+            UseInk(1);
+            Debug.Log($"You have used ink!");
+        }
+    }
+
+    //
+
+    public bool CanUltimate()
+    {
+        if (ink == maxInk)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    //
+    // CheatCode
+    public void CheatInk(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)
+        {
+            ObtainInk(3);
         }
     }
 }
