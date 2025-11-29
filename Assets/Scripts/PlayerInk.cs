@@ -76,6 +76,20 @@ public class PlayerInk : MonoBehaviour
     }
 
     //
+
+    public bool CanUltimate()
+    {
+        if (ink == maxInk)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    //
     // CheatCode
     public void CheatInk(InputAction.CallbackContext ctx)
     {
