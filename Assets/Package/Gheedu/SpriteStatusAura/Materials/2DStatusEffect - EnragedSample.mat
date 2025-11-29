@@ -152,7 +152,7 @@ Material:
     - _OutlineThickness: 1.6
     - _OutlineThreshold: 0.568
     - _Outline_Threshold: 0.5
-    - _OverrideColorValue: 0.85
+    - _OverrideColorValue: 0.36
     - _OverrideSpriteColor: 1
     - _PixelsPerUnit: 100
     - _Rotation: 0
@@ -199,7 +199,7 @@ Material:
     - _1X_2: {r: 1, g: 0, b: 0, a: 0}
     - _1X_3: {r: -1, g: -1, b: 0, a: 0}
     - _1X_4: {r: 1, g: -1, b: 0, a: 0}
-    - _Color: {r: 7.364399, g: 0, b: 0, a: 1}
+    - _Color: {r: 9.832051, g: 0, b: 0, a: 1}
     - _Offset: {r: 0, g: 20, b: 0, a: 0}
     - _OutlineColor: {r: 4.237095, g: 0, b: 0.09142733, a: 0}
     - _OutlinePosition: {r: 0, g: 20, b: 0, a: 0}

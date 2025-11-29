@@ -20,8 +20,6 @@ public class LifeController : MonoBehaviour
 
         if (!isInvincible)
         {
-            //currentHp -= dmg;
-
             if (dmg > 0)
                 StartCoroutine(PlayerHurt());
             isInvincible = true;

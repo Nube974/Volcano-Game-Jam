@@ -78,7 +78,7 @@ public class PlayerSizeChange : MonoBehaviour
     IEnumerator WaitForUltimateAction()
     {
         isUltimateState = true;
-        yield return new WaitForSeconds(100f);
+        yield return new WaitForSeconds(5f);
         sprite.SetMaterials(normalMat);
         isUltimateState = false;
         body.transform.localScale = normalMode;
