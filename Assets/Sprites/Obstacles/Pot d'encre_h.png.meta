@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 76e22791460bfa64bb0cf82a5f87f5c0
+guid: c4a201e1ad520b94dbd0503dabc1db60
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1462022273761644160
-    second: "R\xE8gle_0"
+      213: -7342731804329861055
+    second: Pot d'encre_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "R\xE8gle_0"
+      name: Pot d'encre_0
       rect:
         serializedVersion: 2
-        x: 45
-        y: 210
-        width: 1678
-        height: 549
+        x: 368
+        y: 0
+        width: 1032
+        height: 1006
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0817ab6fc7ad5bbe0800000000000000
-      internalID: -1462022273761644160
+      spriteID: 140a4f1d350691a90800000000000000
+      internalID: -7342731804329861055
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "R\xE8gle_0": -1462022273761644160
+      Pot d'encre_0: -7342731804329861055
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

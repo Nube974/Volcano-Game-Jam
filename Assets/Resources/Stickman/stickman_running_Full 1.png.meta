@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 2d67ccf296b91be4b9e8fc4766928910
+guid: 0e7c2e3357562384e9c09b2cbe3b8d6a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2171098389188114209
-    second: stickman_running_bottom_0
+      213: 8944728648764222839
+    second: stickman_running_Full_0
   - first:
-      213: -3802307904002439984
-    second: stickman_running_bottom_1
+      213: 3877449437093870806
+    second: stickman_running_Full_1
   - first:
-      213: 2162134117660848294
-    second: stickman_running_bottom_2
+      213: 4170279163984525100
+    second: stickman_running_Full_2
   - first:
-      213: -3869254423204181681
-    second: stickman_running_bottom_3
+      213: -5407073912218434949
+    second: stickman_running_Full_3
   - first:
-      213: 1694140538079291347
-    second: stickman_running_bottom_4
+      213: -1182537221167483023
+    second: stickman_running_Full_4
   - first:
-      213: 7149713780262584487
-    second: stickman_running_bottom_5
+      213: 6449616280524249412
+    second: stickman_running_Full_5
   - first:
-      213: -7436916803069728891
-    second: stickman_running_bottom_6
+      213: 4476670947906080300
+    second: stickman_running_Full_6
   - first:
-      213: 4157580765805680207
-    second: stickman_running_bottom_7
+      213: 4058827458577895277
+    second: stickman_running_Full_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,13 +147,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stickman_running_bottom_0
+      name: stickman_running_Full_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 41
-        height: 56
+        x: 62
+        y: 50
+        width: 79
+        height: 122
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 127faf36b7a412e10800000000000000
-      internalID: 2171098389188114209
+      spriteID: 77de9d9905f022c70800000000000000
+      internalID: 8944728648764222839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_bottom_1
+      name: stickman_running_Full_1
       rect:
         serializedVersion: 2
-        x: 193
-        y: 0
-        width: 52
-        height: 63
+        x: 257
+        y: 51
+        width: 87
+        height: 126
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0d446475b1d7b3bc0800000000000000
-      internalID: -3802307904002439984
+      spriteID: 6dcb48c28b77fc530800000000000000
+      internalID: 3877449437093870806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_bottom_2
+      name: stickman_running_Full_2
       rect:
         serializedVersion: 2
-        x: 372
-        y: 0
-        width: 88
-        height: 62
+        x: 436
+        y: 49
+        width: 116
+        height: 132
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6a07de74681710e10800000000000000
-      internalID: 2162134117660848294
+      spriteID: c27b287fdcecfd930800000000000000
+      internalID: 4170279163984525100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_bottom_3
+      name: stickman_running_Full_3
       rect:
         serializedVersion: 2
-        x: 565
-        y: 26
-        width: 102
-        height: 45
+        x: 628
+        y: 77
+        width: 136
+        height: 110
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f494e4f2a95ad4ac0800000000000000
-      internalID: -3869254423204181681
+      spriteID: b7240fbbce636f4b0800000000000000
+      internalID: -5407073912218434949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_bottom_4
+      name: stickman_running_Full_4
       rect:
         serializedVersion: 2
-        x: 761
-        y: 26
-        width: 121
-        height: 45
+        x: 824
+        y: 76
+        width: 146
+        height: 113
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d72ecbe7dbc28710800000000000000
-      internalID: 1694140538079291347
+      spriteID: 17772a6a9a8c69fe0800000000000000
+      internalID: -1182537221167483023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_bottom_5
+      name: stickman_running_Full_5
       rect:
         serializedVersion: 2
-        x: 964
-        y: 11
-        width: 115
-        height: 57
+        x: 1028
+        y: 61
+        width: 134
+        height: 127
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -272,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7a044466dc2e83360800000000000000
-      internalID: 7149713780262584487
+      spriteID: 449593ae5d3a18950800000000000000
+      internalID: 6449616280524249412
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_bottom_6
+      name: stickman_running_Full_6
       rect:
         serializedVersion: 2
-        x: 1168
-        y: 0
-        width: 105
-        height: 69
+        x: 1231
+        y: 50
+        width: 126
+        height: 135
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -294,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 58725e0f193cac890800000000000000
-      internalID: -7436916803069728891
+      spriteID: c2ec04a3284502e30800000000000000
+      internalID: 4476670947906080300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_bottom_7
+      name: stickman_running_Full_7
       rect:
         serializedVersion: 2
-        x: 1379
-        y: 0
-        width: 78
-        height: 62
+        x: 1442
+        y: 50
+        width: 101
+        height: 131
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -316,8 +316,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f4618debda1b2b930800000000000000
-      internalID: 4157580765805680207
+      spriteID: d6f0329a11ad35830800000000000000
+      internalID: 4058827458577895277
       vertices: []
       indices: 
       edges: []
@@ -326,7 +326,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 949d11bba08eb78498f986804f70289f
+    spriteID: 7fbd4da74e138a74687bda902270ca11
     internalID: 0
     vertices: []
     indices: 
@@ -336,14 +336,14 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stickman_running_bottom_0: 2171098389188114209
-      stickman_running_bottom_1: -3802307904002439984
-      stickman_running_bottom_2: 2162134117660848294
-      stickman_running_bottom_3: -3869254423204181681
-      stickman_running_bottom_4: 1694140538079291347
-      stickman_running_bottom_5: 7149713780262584487
-      stickman_running_bottom_6: -7436916803069728891
-      stickman_running_bottom_7: 4157580765805680207
+      stickman_running_Full_0: 8944728648764222839
+      stickman_running_Full_1: 3877449437093870806
+      stickman_running_Full_2: 4170279163984525100
+      stickman_running_Full_3: -5407073912218434949
+      stickman_running_Full_4: -1182537221167483023
+      stickman_running_Full_5: 6449616280524249412
+      stickman_running_Full_6: 4476670947906080300
+      stickman_running_Full_7: 4058827458577895277
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
