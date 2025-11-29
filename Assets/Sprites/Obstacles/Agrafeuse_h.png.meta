@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bddfa1aa7e0b5004f9a59ace6b571284
+guid: 720757e32e195c344ab45824d17e9e02
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3282778428531443283
-    second: Vague d'encre_0
+      213: -4800181985360091907
+    second: Agrafeuse_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 400
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,17 +96,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 4
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vague d'encre_0
+      name: Agrafeuse_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 55
-        width: 1920
-        height: 868
+        x: 6
+        y: 21
+        width: 1755
+        height: 932
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da97113896a3172d0800000000000000
-      internalID: -3282778428531443283
+      spriteID: df4e161bae3526db0800000000000000
+      internalID: -4800181985360091907
       vertices: []
       indices: 
       edges: []
@@ -135,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vague d'encre_0: -3282778428531443283
+      Agrafeuse_0: -4800181985360091907
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
