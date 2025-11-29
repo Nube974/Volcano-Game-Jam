@@ -1361,6 +1361,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1054096706492234027, guid: 98b07206867f3954d88ee0bd8593d564, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 4965907477075215615, guid: 2f3a87908bcff504aac1dfd4dcca0ba0, type: 2}
     - target: {fileID: 6455949277395978912, guid: 98b07206867f3954d88ee0bd8593d564, type: 3}
       propertyPath: m_LocalPosition.x
       value: 656.22894
@@ -1401,6 +1405,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8245383261928059504, guid: 98b07206867f3954d88ee0bd8593d564, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 3991226674158532986, guid: 2f3a87908bcff504aac1dfd4dcca0ba0, type: 2}
     - target: {fileID: 8582881055234713692, guid: 98b07206867f3954d88ee0bd8593d564, type: 3}
       propertyPath: m_Name
       value: AudioManager
