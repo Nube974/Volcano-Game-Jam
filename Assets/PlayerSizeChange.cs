@@ -16,8 +16,6 @@ public class PlayerSizeChange : MonoBehaviour
     [SerializeField] SpriteRenderer sprite;
 
     [SerializeField] PlayerInk ultimateJauge;
-    [SerializeField] List<Material> aura;
-    [SerializeField] List<Material> normalMat;
 
     private bool isUltimateState = false;
 
@@ -70,7 +68,6 @@ public class PlayerSizeChange : MonoBehaviour
         {
             body.transform.localScale = ultimateMode;
             ultimateJauge.UseInk(3);
-            sprite.SetMaterials(aura);
             StartCoroutine(WaitForUltimateAction());
         }
     }
@@ -79,7 +76,6 @@ public class PlayerSizeChange : MonoBehaviour
     {
         isUltimateState = true;
         yield return new WaitForSeconds(5f);
-        sprite.SetMaterials(normalMat);
         isUltimateState = false;
         body.transform.localScale = normalMode;
     }
