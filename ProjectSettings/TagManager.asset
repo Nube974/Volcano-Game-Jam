@@ -5,7 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - FullPlayer
-  - Audio
+  - DeathZone
   layers:
   - Default
   - TransparentFX
