@@ -50,8 +50,13 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
-            body.transform.localScale = normalMode;
+           
         }
+    }
+
+    public void ForceNormalMode()
+    {
+        body.transform.localScale = normalMode;
     }
 
     public void OnShrinkMode(InputAction.CallbackContext context)
