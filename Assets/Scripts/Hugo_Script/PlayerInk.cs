@@ -34,26 +34,26 @@ public class PlayerInk : MonoBehaviour
     public void ObtainInk(int amount)
     {
         ink += amount;
-        Debug.Log($"You have this much ink: {ink}");
+        //Debug.Log($"You have this much ink: {ink}");
         SetInk(ink);
         if (ink > maxInk)
         {
             ink = maxInk;
             SetInk(ink);
-            Debug.Log($"You have this much ink: {ink}");
+            //Debug.Log($"You have this much ink: {ink}");
         }
     }
     public void UseInk(int amount)
     {
         ink -= amount;
-        Debug.Log($"You have this much ink: {ink}");
+        //Debug.Log($"You have this much ink: {ink}");
         slider.value = ink;
         SetInk(ink);
         if (ink < minInk)
         {
             ink = minInk;
             SetInk(ink);
-            Debug.Log($"You have this much ink: {ink}");
+            //Debug.Log($"You have this much ink: {ink}");
         }
     }
 
@@ -71,7 +71,7 @@ public class PlayerInk : MonoBehaviour
         if (ctx.started)
         {
             UseInk(1);
-            Debug.Log($"You have used ink!");
+            //Debug.Log($"You have used ink!");
         }
     }
 
