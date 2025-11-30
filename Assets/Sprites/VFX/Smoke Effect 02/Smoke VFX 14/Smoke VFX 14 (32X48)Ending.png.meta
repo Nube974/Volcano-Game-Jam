@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: 275adb8d306a6f2409db5241b2d8b465
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2166151439584378711
+    second: Smoke VFX 14 (32X48)Ending_0
+  - first:
+      213: 6832314489790964616
+    second: Smoke VFX 14 (32X48)Ending_1
+  - first:
+      213: -6402571491699782932
+    second: Smoke VFX 14 (32X48)Ending_2
+  - first:
+      213: -8531630485910295423
+    second: Smoke VFX 14 (32X48)Ending_3
+  - first:
+      213: 2316953052390996676
+    second: Smoke VFX 14 (32X48)Ending_4
+  - first:
+      213: 1862037009085041614
+    second: Smoke VFX 14 (32X48)Ending_5
+  - first:
+      213: 625575929548340510
+    second: Smoke VFX 14 (32X48)Ending_6
+  - first:
+      213: 5960063873806407059
+    second: Smoke VFX 14 (32X48)Ending_7
+  - first:
+      213: 5213273605343249617
+    second: Smoke VFX 14 (32X48)Ending_8
+  - first:
+      213: -338565054823504341
+    second: Smoke VFX 14 (32X48)Ending_9
+  - first:
+      213: -6629699498385211690
+    second: Smoke VFX 14 (32X48)Ending_10
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 38
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a04fd11eb840f1e0800000000000000
+      internalID: -2166151439584378711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 39
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883aebd44d141de50800000000000000
+      internalID: 6832314489790964616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 4
+        width: 26
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea013c862f7527a0800000000000000
+      internalID: -6402571491699782932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 6
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c6c6c864f899980800000000000000
+      internalID: -8531630485910295423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 16
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cab5018688772020800000000000000
+      internalID: 2316953052390996676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 23
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb05255bc847d910800000000000000
+      internalID: 1862037009085041614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 31
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d73c45efd7ea800800000000000000
+      internalID: 625575929548340510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 38
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3959ed4f38666b250800000000000000
+      internalID: 5960063873806407059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_8
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 39
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4876319b4495840800000000000000
+      internalID: 5213273605343249617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2662ed50ec2d4bf0800000000000000
+      internalID: -338565054823504341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Smoke VFX 14 (32X48)Ending_10
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 25
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6def92f8e639ef3a0800000000000000
+      internalID: -6629699498385211690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Smoke VFX 14 (32X48)Ending_0: -2166151439584378711
+      Smoke VFX 14 (32X48)Ending_1: 6832314489790964616
+      Smoke VFX 14 (32X48)Ending_10: -6629699498385211690
+      Smoke VFX 14 (32X48)Ending_2: -6402571491699782932
+      Smoke VFX 14 (32X48)Ending_3: -8531630485910295423
+      Smoke VFX 14 (32X48)Ending_4: 2316953052390996676
+      Smoke VFX 14 (32X48)Ending_5: 1862037009085041614
+      Smoke VFX 14 (32X48)Ending_6: 625575929548340510
+      Smoke VFX 14 (32X48)Ending_7: 5960063873806407059
+      Smoke VFX 14 (32X48)Ending_8: 5213273605343249617
+      Smoke VFX 14 (32X48)Ending_9: -338565054823504341
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
