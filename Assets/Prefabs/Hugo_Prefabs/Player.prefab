@@ -28,10 +28,11 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2.06, y: 0.79, z: 0}
-  m_LocalScale: {x: 6, y: 6, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 669855370820526723}
+  - {fileID: 7637751297319114163}
   m_Father: {fileID: 1522872169619694422}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1891548602182046452
@@ -137,11 +138,11 @@ Transform:
   m_GameObject: {fileID: 402836014452421171}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.15, y: 0.94, z: 0}
+  m_LocalScale: {x: 0.16666667, y: 0.16666667, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1522872169619694422}
+  m_Father: {fileID: 2303266502445497188}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2566543321303463399
 MonoBehaviour:
@@ -183,8 +184,8 @@ MonoBehaviour:
     m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
-  m_PointLightInnerRadius: 0
-  m_PointLightOuterRadius: 1
+  m_PointLightInnerRadius: 1
+  m_PointLightOuterRadius: 5
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
@@ -232,7 +233,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2303266502445497188}
-  - {fileID: 7637751297319114163}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2157207595222105551
@@ -450,6 +450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speedHurt: 5
+  sizeState: {fileID: 0}
   sprite: {fileID: 1891548602182046452}
   playerRun: {fileID: 2157207595222105551}
 --- !u!114 &8273088347674276305
@@ -467,6 +468,7 @@ MonoBehaviour:
   body: {fileID: 12381309045716054}
   sprite: {fileID: 1891548602182046452}
   ultimateJauge: {fileID: 841231847413987901}
+  isUltimateState: 0
   direction: 0
 --- !u!114 &841231847413987901
 MonoBehaviour:
