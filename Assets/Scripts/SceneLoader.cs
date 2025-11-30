@@ -1,0 +1,16 @@
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class SceneLoader : MonoBehaviour
+{
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+    
+    public void LoadLevel()
+    {
+        SceneManager.LoadScene(1);
+    }
+}
