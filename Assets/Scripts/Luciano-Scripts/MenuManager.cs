@@ -6,6 +6,9 @@ public class MenuManager : MonoBehaviour
 {
 
 public GameObject Options_Panel;
+    public GameObject VictoryPanel;
+    public GameObject DefeatPanel;
+    public GameObject PausePanel;
 
     public void PlayButton()
     {
@@ -18,11 +21,25 @@ public GameObject Options_Panel;
         SceneManager.LoadScene("Credits");
     }
 
+    public void RetryButton()
+    {
+        SceneManager.LoadScene("LevelDesignTest");
+    }
+
+
     public void BackButton()
     {
         SceneManager.LoadScene("MainMenu");
         // Déscativer le panneau des options lorsqu'on revient au menu principal
         Options_Panel.SetActive(false);
+        VictoryPanel.SetActive(false);
+        DefeatPanel.SetActive(false);
+        PausePanel.SetActive(false);    
+    }
+
+    public void ProgressAgain()
+    {
+        PausePanel.SetActive(false);
     }
 
     public void ParametersButton()
