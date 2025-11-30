@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -50,4 +51,15 @@ public GameObject Options_Panel;
     {
            Application.Quit();
     }   
+
+    IEnumerator launchScene(string sceneName)
+    {
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void LaunchScene(string sceneName)
+    {
+        StartCoroutine(launchScene(sceneName));
+    }
 }
