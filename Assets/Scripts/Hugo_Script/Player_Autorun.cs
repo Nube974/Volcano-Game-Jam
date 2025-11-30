@@ -6,7 +6,6 @@ using UnityEngine;
 public class Player_Autorun : MonoBehaviour
 {
     // Update is called once per frame
-    public static event Action LaunchEnding;
     private Rigidbody2D rb;
     private float currentSpeed = 10;
     private float normalSpeed = 10;
@@ -15,16 +14,21 @@ public class Player_Autorun : MonoBehaviour
 
     [SerializeField] PlayerSizeChange split;
 
+    [SerializeField] PlayerCinematic cinematic;
+
     public void SetSpeed(float _speed){ currentSpeed = _speed;}
     public float GetNormalSpeed(){return normalSpeed;}
 
+    private bool canMove = false;
+
     void Start()
     {
+        CoolDownGame.StartGame += ReceiveStartSignal;
         rb = GetComponent<Rigidbody2D>();
     }
     void FixedUpdate()
     {
-        if (!hasWon) {
+        if (!hasWon && canMove) {
             if (split.direction == PlayerSizeChange.PlayerDirection.Horizontal)
             {
                 rb.linearVelocityX = 1 * currentSpeed;
@@ -37,13 +41,18 @@ public class Player_Autorun : MonoBehaviour
         }
     }
 
+    private void ReceiveStartSignal()
+    {
+        canMove = true;
+    }
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("VictoryZone")) 
         {
             hasWon = true;
             rb.linearVelocityX = 0;
-            LaunchEnding?.Invoke();
+            cinematic.activateCinematic = true;
         }
     }
 }

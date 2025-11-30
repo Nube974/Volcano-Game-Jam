@@ -11,6 +11,7 @@ public class PlayerCinematic : MonoBehaviour
     [SerializeField] SpriteRenderer sprite;
     [SerializeField] Rigidbody2D rb;
     [SerializeField] private TextMeshProUGUI textMP;
+    [SerializeField] PlayerSizeChange size;
 
     [SerializeField] GameObject EraserFinal;
     private String godDialog1;
@@ -18,10 +19,11 @@ public class PlayerCinematic : MonoBehaviour
     private String godDialog3;
 
     private bool movingPlayerToSpot;
+
+    public bool activateCinematic;
     
     void Start()
     {
-        Player_Autorun.LaunchEnding += Ending;
         godDialog1 = "Oh, et puis zut!";
         godDialog2 = "Je n'ai pas le temps de perdre avec toi!";
         godDialog2 = "Tu as gagné, je dois aller à l'école!";
@@ -29,9 +31,15 @@ public class PlayerCinematic : MonoBehaviour
 
     void Update()
     {
+        if (activateCinematic)
+        {
+            Ending();
+            activateCinematic = false;
+        }
+
         if (movingPlayerToSpot)
         {
-            rb.linearVelocityX = 1;
+            rb.linearVelocityX = 4;
         }
     }
 
@@ -42,6 +50,7 @@ public class PlayerCinematic : MonoBehaviour
 
     IEnumerator WaitForGod()
     {
+        size.ForceNormalMode();
         movingPlayerToSpot = true;
         yield return new WaitForSeconds(4f);
         movingPlayerToSpot = false;
