@@ -2,9 +2,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 
 public class PlayerSizeChange : MonoBehaviour
 {
+    public Animator animator;
+
     [SerializeField] GameObject body;
 
     private Vector3 bigMode = new Vector3(4f,4f,1f);
@@ -67,6 +70,8 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState && ultimateJauge.CanUltimate())
         {
+            animator.Play("Assets/Animation/Esteban/Grow2.anim");
+
             body.transform.localScale = ultimateMode;
             ultimateJauge.UseInk(3);
             StartCoroutine(WaitForUltimateAction());
