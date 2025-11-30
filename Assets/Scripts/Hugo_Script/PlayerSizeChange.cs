@@ -50,7 +50,7 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
-           
+            body.transform.localScale = normalMode;
         }
     }
 
