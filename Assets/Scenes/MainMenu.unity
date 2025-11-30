@@ -2579,6 +2579,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 907230126518346153, guid: dd1d5d3bc696615438d8182ebb3bb30b, type: 3}
     - target: {fileID: 9009156281434502136, guid: 0481d148c24947a47a558f9e44bdc670, type: 3}
+      propertyPath: playerLife
+      value: 
+      objectReference: {fileID: 4951211310570765998, guid: 4c3bf134095fc144a9ba98ecc449f4c2, type: 3}
+    - target: {fileID: 9009156281434502136, guid: 0481d148c24947a47a558f9e44bdc670, type: 3}
       propertyPath: DefeatPanel
       value: 
       objectReference: {fileID: 5053747480141136708, guid: a9653dbba117ccc41809586a4652fd04, type: 3}
