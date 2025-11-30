@@ -50,7 +50,7 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
-            AudioManager.Instance.PlaySFX(growing);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.growSFX);
             body.transform.localScale = bigMode;
         }
     }
@@ -72,6 +72,7 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.shrinkSFX);
             body.transform.localScale = smallMode;
 
         }

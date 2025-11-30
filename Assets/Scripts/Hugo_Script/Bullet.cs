@@ -50,6 +50,7 @@ public class HorizontalBullet : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.swooshSFX);
             collision.transform.parent.transform.parent.GetComponent<LifeController>().SpeedChange(dmg);
         }
     }

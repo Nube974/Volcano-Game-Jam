@@ -16,12 +16,14 @@ public GameObject Options_Panel;
 
     public void PlayButton()
     {
+        Debug.Log("here");
         SceneManager.LoadScene("RulesScene");
 
     }
 
     public void CreditsButton()
     {
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.creditsMusic);
         SceneManager.LoadScene("Credits");
     }
 
@@ -33,6 +35,7 @@ public GameObject Options_Panel;
 
     public void BackButton()
     {
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.homeMusic);
         SceneManager.LoadScene("MainMenu");
         // Déscativer le panneau des options lorsqu'on revient au menu principal
         Options_Panel.SetActive(false);
@@ -58,6 +61,7 @@ public GameObject Options_Panel;
 
     IEnumerator launchScene(string sceneName)
     {
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.levelMusic);
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(sceneName);
     }

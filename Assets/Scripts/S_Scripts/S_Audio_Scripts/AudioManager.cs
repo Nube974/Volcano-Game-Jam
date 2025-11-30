@@ -38,13 +38,13 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        musicSource.clip = homeMusic;
-        musicSource.Play();
+        PlayMusic(homeMusic);
     }
 
     public void PlayMusic(AudioClip clip)
     {
-        musicSource.PlayOneShot(clip);
+        musicSource.clip = clip;
+        musicSource.Play();
     }
 
     public void PlaySFX(AudioClip clip)

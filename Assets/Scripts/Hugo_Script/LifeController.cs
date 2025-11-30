@@ -65,6 +65,7 @@ public class LifeController : MonoBehaviour
     {
         if (collision.CompareTag("DeathZone"))
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.playerDieSFX);
             defeatPanel.SetActive(true);
             isDead = true;
         }
