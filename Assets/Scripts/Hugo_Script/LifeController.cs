@@ -7,9 +7,13 @@ public class LifeController : MonoBehaviour
 
     public float speedHurt = 5f;
     private bool isInvincible = false;
+
+    [SerializeField] GameObject defeatPanel;
     [SerializeField] PlayerSizeChange sizeState;
 
     private float iFrameTimer = 0.5f;
+
+    public bool isDead = false;
 
     [SerializeField] private SpriteRenderer sprite;
     [SerializeField] private Player_Autorun playerRun;
@@ -61,7 +65,8 @@ public class LifeController : MonoBehaviour
     {
         if (collision.CompareTag("DeathZone"))
         {
-            Debug.Log("I'm DEAD");
+            defeatPanel.SetActive(true);
+            isDead = true;
         }
     }
 

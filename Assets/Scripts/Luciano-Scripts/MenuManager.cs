@@ -1,6 +1,6 @@
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class MenuManager : MonoBehaviour
 {
@@ -9,6 +9,8 @@ public GameObject Options_Panel;
     public GameObject VictoryPanel;
     public GameObject DefeatPanel;
     public GameObject PausePanel;
+
+    [SerializeField] LifeController playerLife;
 
     public void PlayButton()
     {
@@ -40,6 +42,7 @@ public GameObject Options_Panel;
     public void ProgressAgain()
     {
         PausePanel.SetActive(false);
+        Time.timeScale = 1;
     }
 
     public void ParametersButton()
@@ -49,5 +52,14 @@ public GameObject Options_Panel;
     public void QuitButton()
     {
            Application.Quit();
-    }   
+    }
+
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        if (context.started && !playerLife.isDead)
+        {
+            PausePanel.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
 }
