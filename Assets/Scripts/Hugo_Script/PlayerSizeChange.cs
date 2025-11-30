@@ -23,6 +23,10 @@ public class PlayerSizeChange : MonoBehaviour
 
     public bool isUltimateState = false;
 
+    private void Awake()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
 
     public enum PlayerDirection
     {
@@ -53,7 +57,7 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
-           
+            body.transform.localScale = normalMode;
         }
     }
 
@@ -75,8 +79,6 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState && ultimateJauge.CanUltimate())
         {
-            animator.Play("Assets/Animation/Esteban/Grow2.anim");
-
             body.transform.localScale = ultimateMode;
             ultimateJauge.UseInk(3);
             StartCoroutine(WaitForUltimateAction());
