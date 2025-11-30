@@ -17,7 +17,8 @@ public class PlayerSizeChange : MonoBehaviour
 
     [SerializeField] PlayerInk ultimateJauge;
 
-    private bool isUltimateState = false;
+
+    public bool isUltimateState = false;
 
 
     public enum PlayerDirection

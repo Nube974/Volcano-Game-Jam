@@ -4,9 +4,9 @@ public class AddInk : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("FullPlayer"))
+        if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<PlayerInk>().ObtainInk(1);
+            collision.transform.parent.transform.parent.GetComponent<PlayerInk>().ObtainInk(1);
             Destroy(gameObject);
         }
     }
