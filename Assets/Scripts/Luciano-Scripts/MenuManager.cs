@@ -3,7 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
-public void PlayButton()
+
+public GameObject Options_Panel;
+
+    public void PlayButton()
     {
            SceneManager.LoadScene("RulesScene");
     }
@@ -13,7 +16,16 @@ public void CreditsButton()
                SceneManager.LoadScene("Credits");
     }
 
-public void QuitButton()
+public void BackButton()
+    {
+           SceneManager.LoadScene("MainMenu");
+    }
+
+public void ParametersButton()
+    {            
+        Options_Panel.SetActive(true);
+    }
+    public void QuitButton()
     {
            Application.Quit();
     }   
