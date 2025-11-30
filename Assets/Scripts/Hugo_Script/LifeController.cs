@@ -56,5 +56,13 @@ public class LifeController : MonoBehaviour
         playerRun.SetSpeed(playerRun.GetNormalSpeed());
         isInvincible = false;
     }
-    
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("DeathZone"))
+        {
+            Debug.Log("I'm DEAD");
+        }
+    }
+
 }
