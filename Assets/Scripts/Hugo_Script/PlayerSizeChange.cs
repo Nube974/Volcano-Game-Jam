@@ -23,6 +23,7 @@ public class PlayerSizeChange : MonoBehaviour
 
     public bool isUltimateState = false;
 
+
     private void Awake()
     {
         animator = GetComponentInChildren<Animator>();
@@ -49,7 +50,8 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
-             body.transform.localScale = bigMode;
+            AudioManager.Instance.PlaySFX(growing);
+            body.transform.localScale = bigMode;
         }
     }
 
