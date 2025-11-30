@@ -1,31 +1,25 @@
 fileFormatVersion: 2
-guid: 9151420fcbcfc4b41adf7dca273440a1
+guid: b7ac79c65f4d0224e8f7529cb59451be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8944728648764222839
-    second: stickman_running_Full_0
+      213: -3296855413396683702
+    second: stickman_idle_0
   - first:
-      213: 3877449437093870806
-    second: stickman_running_Full_1
+      213: 7042540898659716583
+    second: stickman_idle_1
   - first:
-      213: 4170279163984525100
-    second: stickman_running_Full_2
+      213: -3190420750337111257
+    second: stickman_idle_2
   - first:
-      213: -5407073912218434949
-    second: stickman_running_Full_3
+      213: -3161747745832140332
+    second: stickman_idle_3
   - first:
-      213: -1182537221167483023
-    second: stickman_running_Full_4
+      213: 472615056036300729
+    second: stickman_idle_4
   - first:
-      213: 6449616280524249412
-    second: stickman_running_Full_5
-  - first:
-      213: 4476670947906080300
-    second: stickman_running_Full_6
-  - first:
-      213: 4058827458577895277
-    second: stickman_running_Full_7
+      213: -7926629520989037719
+    second: stickman_idle_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -147,13 +141,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: stickman_running_Full_0
+      name: stickman_idle_0
       rect:
         serializedVersion: 2
-        x: 62
-        y: 50
-        width: 79
-        height: 122
+        x: 61
+        y: 46
+        width: 85
+        height: 146
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +156,108 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77de9d9905f022c70800000000000000
-      internalID: 8944728648764222839
+      spriteID: a44caa018773f32d0800000000000000
+      internalID: -3296855413396683702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stickman_running_Full_1
+      name: stickman_idle_1
       rect:
         serializedVersion: 2
-        x: 258
-        y: 51
+        x: 261
+        y: 48
+        width: 86
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edc5c462a12cb160800000000000000
+      internalID: 7042540898659716583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_idle_2
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 48
+        width: 85
+        height: 141
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b0f1c2b3959b3d0800000000000000
+      internalID: -3190420750337111257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_idle_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 48
+        width: 85
+        height: 140
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d188444d273f14d0800000000000000
+      internalID: -3161747745832140332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_idle_4
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 48
+        width: 85
+        height: 145
+      alignment: 9
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b78b82b3e01f8600800000000000000
+      internalID: 472615056036300729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stickman_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 46
         width: 87
-        height: 126
+        height: 146
       alignment: 9
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,140 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6dcb48c28b77fc530800000000000000
-      internalID: 3877449437093870806
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stickman_running_Full_2
-      rect:
-        serializedVersion: 2
-        x: 436
-        y: 49
-        width: 116
-        height: 132
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c27b287fdcecfd930800000000000000
-      internalID: 4170279163984525100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stickman_running_Full_3
-      rect:
-        serializedVersion: 2
-        x: 628
-        y: 77
-        width: 136
-        height: 110
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b7240fbbce636f4b0800000000000000
-      internalID: -5407073912218434949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stickman_running_Full_4
-      rect:
-        serializedVersion: 2
-        x: 824
-        y: 76
-        width: 146
-        height: 113
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 17772a6a9a8c69fe0800000000000000
-      internalID: -1182537221167483023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stickman_running_Full_5
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 61
-        width: 134
-        height: 127
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 449593ae5d3a18950800000000000000
-      internalID: 6449616280524249412
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stickman_running_Full_6
-      rect:
-        serializedVersion: 2
-        x: 1231
-        y: 50
-        width: 126
-        height: 135
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c2ec04a3284502e30800000000000000
-      internalID: 4476670947906080300
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: stickman_running_Full_7
-      rect:
-        serializedVersion: 2
-        x: 1442
-        y: 51
-        width: 101
-        height: 131
-      alignment: 9
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6f0329a11ad35830800000000000000
-      internalID: 4058827458577895277
+      spriteID: 96bd25f9274fef190800000000000000
+      internalID: -7926629520989037719
       vertices: []
       indices: 
       edges: []
@@ -326,7 +276,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3e59d965df22a9e469f533acb38cc5f7
+    spriteID: 547790b4aaf60f34da85e3a79cc25730
     internalID: 0
     vertices: []
     indices: 
@@ -336,14 +286,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      stickman_running_Full_0: 8944728648764222839
-      stickman_running_Full_1: 3877449437093870806
-      stickman_running_Full_2: 4170279163984525100
-      stickman_running_Full_3: -5407073912218434949
-      stickman_running_Full_4: -1182537221167483023
-      stickman_running_Full_5: 6449616280524249412
-      stickman_running_Full_6: 4476670947906080300
-      stickman_running_Full_7: 4058827458577895277
+      stickman_idle_0: -3296855413396683702
+      stickman_idle_1: 7042540898659716583
+      stickman_idle_2: -3190420750337111257
+      stickman_idle_3: -3161747745832140332
+      stickman_idle_4: 472615056036300729
+      stickman_idle_5: -7926629520989037719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
