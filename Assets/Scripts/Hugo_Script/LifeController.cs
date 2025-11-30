@@ -7,6 +7,7 @@ public class LifeController : MonoBehaviour
 
     public float speedHurt = 5f;
     private bool isInvincible = false;
+    [SerializeField] PlayerSizeChange sizeState;
 
     private float iFrameTimer = 0.5f;
 
@@ -16,14 +17,17 @@ public class LifeController : MonoBehaviour
 
     public void SpeedChange(float dmg)
     {
-        speedHurt = dmg;
+        if (!sizeState.isUltimateState) {
 
-        if (!isInvincible)
-        {
-            if (dmg > 0)
-                StartCoroutine(PlayerHurt());
-            isInvincible = true;
-            StartCoroutine(WaitForIFrame());
+            speedHurt = dmg;
+
+            if (!isInvincible)
+            {
+                if (dmg > 0)
+                    StartCoroutine(PlayerHurt());
+                isInvincible = true;
+                StartCoroutine(WaitForIFrame());
+            }
         }
     }
 
