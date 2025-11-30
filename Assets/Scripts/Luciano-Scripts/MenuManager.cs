@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,20 +9,23 @@ public GameObject Options_Panel;
 
     public void PlayButton()
     {
-           SceneManager.LoadScene("RulesScene");
+        SceneManager.LoadScene("RulesScene");
+
     }
 
-public void CreditsButton()
+    public void CreditsButton()
     {
-               SceneManager.LoadScene("Credits");
+        SceneManager.LoadScene("Credits");
     }
 
-public void BackButton()
+    public void BackButton()
     {
-           SceneManager.LoadScene("MainMenu");
+        SceneManager.LoadScene("MainMenu");
+        // Déscativer le panneau des options lorsqu'on revient au menu principal
+        Options_Panel.SetActive(false);
     }
 
-public void ParametersButton()
+    public void ParametersButton()
     {            
         Options_Panel.SetActive(true);
     }
