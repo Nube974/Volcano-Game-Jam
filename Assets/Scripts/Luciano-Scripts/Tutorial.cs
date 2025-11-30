@@ -1,23 +1,27 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Tutorial : MonoBehaviour
 {
     public GameObject[] panelsTutorial;
     public int currentPanelIndex = 0;   
 
-    public void ShowNextPanel()
+    public void ShowNextPanel(InputAction.CallbackContext context)
     {
-        panelsTutorial[currentPanelIndex].SetActive(false);
-        currentPanelIndex++;
-        if (currentPanelIndex > panelsTutorial.Length - 1)
+        if (context.started)
         {
-            SceneManager.LoadScene("LevelDesignTest");
-        }
+            panelsTutorial[currentPanelIndex].SetActive(false);
+            currentPanelIndex++;
+            if (currentPanelIndex > panelsTutorial.Length - 1)
+            {
+                SceneManager.LoadScene("LevelDesignTest");
+            }
 
-        else
-        {
-            ShowPanel(currentPanelIndex);
+            else
+            {
+                ShowPanel(currentPanelIndex);
+            }
         }
     }
 

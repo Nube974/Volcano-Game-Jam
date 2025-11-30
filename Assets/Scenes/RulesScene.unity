@@ -268,7 +268,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8389134475083476877, guid: de44f08b13e5af5489e18a7f0982c277, type: 3}
+  m_Sprite: {fileID: 1032985127916131903, guid: f66b6018f5dda994a845fd1eafdfc18b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -363,7 +363,7 @@ MonoBehaviour:
       - m_Target: {fileID: 466202160}
         m_TargetAssemblyTypeName: Tutorial, Assembly-CSharp
         m_MethodName: ShowNextPanel
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 4349915267927364619, guid: 3e3f55ab2bd467e4490fce74030e347d, type: 3}
+  m_Sprite: {fileID: -3782182562279196196, guid: 5bce882683486fc41ad1afef67cf8c2f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -586,7 +586,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -6270953770400647376, guid: 0e606de196233c14ab8cee894593d26c, type: 3}
+  m_Sprite: {fileID: 2696159723936562779, guid: 5e3039df3ef81d94695977df85b100b2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
