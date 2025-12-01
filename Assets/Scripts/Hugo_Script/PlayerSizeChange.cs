@@ -2,9 +2,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 
 public class PlayerSizeChange : MonoBehaviour
 {
+    public Animator animator;
+
     [SerializeField] GameObject body;
 
     private Vector3 bigMode = new Vector3(4f,4f,1f);
@@ -20,6 +23,11 @@ public class PlayerSizeChange : MonoBehaviour
 
     public bool isUltimateState = false;
 
+
+    private void Awake()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
 
     public enum PlayerDirection
     {
@@ -42,7 +50,8 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
-             body.transform.localScale = bigMode;
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.growSFX);
+            body.transform.localScale = bigMode;
         }
     }
 
@@ -63,6 +72,7 @@ public class PlayerSizeChange : MonoBehaviour
     {
         if (context.started && !isUltimateState)
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.shrinkSFX);
             body.transform.localScale = smallMode;
 
         }

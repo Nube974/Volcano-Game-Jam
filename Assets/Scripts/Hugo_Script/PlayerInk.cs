@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class PlayerInk : MonoBehaviour
 {
     public Slider slider;
-
+    public Animator animator;
     public int ink;
     public int minInk = 0;
     public int maxInk = 3;
@@ -14,6 +14,7 @@ public class PlayerInk : MonoBehaviour
     private void Start()
     {
         SetMinMaxInk(minInk, maxInk);
+        animator = slider.gameObject.GetComponent<Animator>();
     }
 
     //
@@ -81,6 +82,7 @@ public class PlayerInk : MonoBehaviour
     {
         if (ink == maxInk)
         {
+            animator.SetBool("isFull", true);
             return true;
         }
         else

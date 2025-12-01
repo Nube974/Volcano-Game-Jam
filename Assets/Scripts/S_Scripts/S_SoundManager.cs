@@ -22,8 +22,10 @@ public enum SoundType
 public class S_SoundManager : MonoBehaviour
 {
     [SerializeField] private SoundList[] soundList;
-    private static S_SoundManager instance;
+    public static S_SoundManager instance;
     private AudioSource audioSource;
+
+    
 
     private void Awake()
     { 
