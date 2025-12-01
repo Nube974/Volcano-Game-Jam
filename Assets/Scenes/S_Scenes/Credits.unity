@@ -2974,7 +2974,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Merci pour le soutien des amis et coll\xE8gues de Simplon Outre-Mer ! "
+  m_text: "Merci pour le soutien des amis et coll\xE8gues de Simplon Outre-Mer !
+    \n\nBig up \xE0 Gurvan Nativel pour le soutien ind\xE9fectible !"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f1b769fbbb889154eac273f2c633ffa9, type: 2}
   m_sharedMaterial: {fileID: 1406217944780732068, guid: f1b769fbbb889154eac273f2c633ffa9, type: 2}

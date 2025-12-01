@@ -35,13 +35,14 @@ public GameObject Options_Panel;
 
     public void BackButton()
     {
-        AudioManager.Instance.PlayMusic(AudioManager.Instance.homeMusic);
+        
         SceneManager.LoadScene("MainMenu");
         // Déscativer le panneau des options lorsqu'on revient au menu principal
         Options_Panel.SetActive(false);
         VictoryPanel.SetActive(false);
         DefeatPanel.SetActive(false);
-        PausePanel.SetActive(false);    
+        PausePanel.SetActive(false);
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.homeMusic);
     }
 
     public void ProgressAgain()
