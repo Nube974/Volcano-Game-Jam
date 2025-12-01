@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c71ec38c5da8f1f4ab8f67e03bd0e2a7
+guid: fb742f83050478b4eba5a4d3694ab031
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3282778428531443283
-    second: Vague d'encre_0
+      213: 8387579696298470347
+    second: stickman_idle 2222_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 64
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -74,7 +74,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vague d'encre_0
+      name: stickman_idle 2222_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 55
-        width: 1920
-        height: 868
+        x: 1
+        y: 0
+        width: 47
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da97113896a3172d0800000000000000
-      internalID: -3282778428531443283
+      spriteID: bcb26236b4ba66470800000000000000
+      internalID: 8387579696298470347
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vague d'encre_0: -3282778428531443283
+      stickman_idle 2222_0: 8387579696298470347
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

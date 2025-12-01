@@ -8,7 +8,7 @@ public class EraserDamage : MonoBehaviour
     {
         if(collision.gameObject.tag == "Player")
         {
-            playerInk.TakeDamage(damage);
+          //  playerInk.TakeDamage(damage);
         }
     }
 }
