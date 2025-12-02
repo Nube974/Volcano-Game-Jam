@@ -12,13 +12,17 @@ public class VolumeSettings : MonoBehaviour
     {
         if (PlayerPrefs.HasKey("musicVolume"))
         {
+           // PlayerPrefs.SetFloat("musicVolume", 1f);
+           // PlayerPrefs.SetFloat("SFXVolume", 1f);
+           // PlayerPrefs.Save();
+
             LoadVolume();
         }
         else
         {
             GetMusicVolume();
             GetSFXVolume();
-        }
+        } 
     }
 
     public void SetMusicVolume()
@@ -27,6 +31,8 @@ public class VolumeSettings : MonoBehaviour
         myMixer.SetFloat("music", Mathf.Log10(volume)*20);
         PlayerPrefs.SetFloat("musicVolume", volume);
         PlayerPrefs.Save();
+
+
     }
 
     public void SetSFXVolume()

@@ -1,6 +1,3 @@
-using System;
-using NUnit.Framework;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player_Autorun : MonoBehaviour
